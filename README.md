@@ -5,8 +5,11 @@ Building a modern data warehouse with SQL Server, including ETL processes, data 
 In this project, you:
 
 **1. Design the architecture:** a modern data warehouse with three layers, bronze, silver and gold.
+
 **2. Build the ETL pipelines:** load the source files and move the data through the layers.
+
 **3. Model the data:** facts and dimensions, ready for reports.
+
 **4. Analyze it:** answer business questions with SQL.
 
 ```
