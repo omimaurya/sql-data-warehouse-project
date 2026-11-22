@@ -1,6 +1,14 @@
 # Data Warehouse and Analytics Project
 Building a modern data warehouse with SQL Server, including ETL processes, data modeling and analytics.
 
+# Project Overview
+In this project, you:
+
+**1. Design the architecture:** a modern data warehouse with three layers, bronze, silver and gold.
+**2. Build the ETL pipelines:** load the source files and move the data through the layers.
+**3. Model the data:** facts and dimensions, ready for reports.
+**4. Analyze it:** answer business questions with SQL.
+
 ```
 sql-data-warehouse-project/
 ├── 00_setup/               the setup guide, and the one-click Docker start for Mac
@@ -23,4 +31,4 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
  **2.** **Silver Layer:** This layer includes data cleansing, standardization, and normalization processes to prepare data for 
  analysis.
  
- **3** **Gold Layer:** Houses business-ready data modeled into a star schema required for reporting and analytics.
+ **3.** **Gold Layer:** Houses business-ready data modeled into a star schema required for reporting and analytics.
